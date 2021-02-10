@@ -21,7 +21,6 @@ end
 
 def runner
   prompt_user
-  puts selection(2)
+  get_user_input
+  selection
 end
-
-runner
